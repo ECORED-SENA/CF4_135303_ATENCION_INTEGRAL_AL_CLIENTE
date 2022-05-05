@@ -10,6 +10,8 @@
   max-width: 90px !important
 .img120
   max-width: 120px !important
+.img130
+  max-width: 130px !important
 .img160
   max-width: 160px !important
 .img200
@@ -44,6 +46,10 @@
   display: flex
   justify-content: flex-start
   flex-direction: row
+.justify-around
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
 .align-items-center
   display: flex;
   align-items: flex-center;
@@ -84,8 +90,182 @@
       margin: 0 -23px
       width: calc(100% + 46px)
       top: 20px
+.bg_grad-02
+  background-image: url("../assets/curso/tema1/fondo1.svg")
+  background-repeat: no-repeat
+  background-size: cover
+.bg_grad-03
+  position: relative
+  .row, 
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0
+    top: 14rem
+    left: 0
+    width: calc( 100% + 6rem)
+    height: 50%
+    background-color: #FFF6E6 
+    background-repeat: no-repeat
+.bgr
+  background-color: #FFB6B0
+  border-radius: 10px
+  margin-left: 1px
+  margin-right: 1px
+  &_2
+    background-color: #FFE1C2
+    border-radius: 10px
+    margin-left: 1px
+    margin-right: 1px
+  &_3
+    background-color: rgba(232, 232, 232, 0.4)
+  &_4
+    background-color: white !important
+  &_5
+    background-color: #FFE7E4
+  &_6
+    background-color: #FFF6E6
+    padding: 8%
+  &_7
+    background-image: url("../assets/curso/tema1/fondo2.svg")
+    background-repeat: no-repeat
+    background-size: contain
+  &_8
+    background-color: #B3B2D4
+    border-radius: 10px
+  &_9
+    background-color: #FFD3A3
+    border-radius: 10px
+  &_10
+    background-color: #FFEDCC
+    border-radius: 10px
+
+.color
+  color: #FF6D60
+  &_1
+    color: #FFA648
+
+.tranform_1
+  transition: transform .2s;
+  &:hover
+    transform: scale(1.20);
+
+
+.posit
+  z-index: 1
+  right: 35%
+  width: 63% !important
+  @media screen and ( max-width: 420px  )
+    right: 6%
+    width: 88% !important
+  &_2
+    z-index: 0
+    left: 50% !important
+    @media screen and ( max-width: 420px )
+      left: 0 !important
+  &_3
+    margin-top: -49px
+    margin-bottom: 13px
+  &_4
+    margin-top: -55px
+    margin-left: 88px
+    @media screen and ( max-width: 420px  )
+      margin-top: 0
+  &_5
+    margin: 0 -3rem
+    background-color: #FFC967
+      
+// TARJETA HOVER TEMA 1    
+.nav-holder2
+  display: inline-block
+  margin: 10px 5px
+  overflow: hidden
+  position: relative
+  -webkit-transform: translateZ(0)
+  -moz-transform: translateZ(0)
+  transform: translateZ(0)
+
+.nav-holder2 *, .nav-holder2 *:before, .nav-holder2 *:after
+  -webkit-box-sizing: border-box
+  -moz-box-sizing: border-box
+  box-sizing: border-box
+  -webkit-transition: all 0.45s ease
+  -moz-transition: all 0.45s ease
+  transition: all 0.45s ease
+
+.nav-holder2:before
+  position: absolute
+  top: 0
+  bottom: 0
+  left: 0
+  right: 0
+  content: ''
+  background-color: #FFC967
+  border-radius: 10px
+  opacity: 1
+  z-index: 888
+  -webkit-transition: all 0.45s ease
+  -moz-transition: all 0.45s ease
+  -ms-transition: all 0.45s ease
+  transition: all 0.45s ease
+  -webkit-transform: translateY(80%)
+  -moz-transform: translateY(80%)
+  transform: translateY(80%)
+
+.nav-holder2:hover:before
+  -webkit-transform: translateY(0)
+  -moz-transform: translateY(0)
+  transform: translateY(0)
+  opacity: 1
+  -webkit-transition-delay: 0.1s
+  -moz-transition-delay: 0.1s
+  transition-delay: 0.1s
+  border-top-left-radius: 14px
+  border-top-right-radius: 14px
+
+.nav-holder2
+  .text
+    position: absolute
+    top: 75%
+    bottom: 0px
+    left: 0px
+    right: 0px
+    z-index: 999
+    bottom: 0
+    padding: 1em
+  img
+    backface-visibility: hidden
+    max-width: 100%
+    vertical-align: top
+    z-index: 0
+  p
+    margin: 0
+    opacity: 0
+    line-height: 1.2em
+
+.nav-holder2 .h4
+  margin: 0
+  opacity: 1
+
+.nav-holder2:hover
+  .text
+    top: -3%
+  h4, p
+    opacity: 1
+      
+  
+
 //CLASES SOBRE-ESCRITAS//
 .video iframe
   height: 86% !important
   @media screen and (max-width: $bp-max-xs)
     height: 70% !important
+.slyder-a__tipo-a .slyder-a__btn--sigt
+  right: -7px !important
+.slyder-a__tipo-a .slyder-a__btn--atrs
+  left: -7px !important
+.slyder-a__tipo-a .slyder-a__bullets 
+  bottom: 13px !important
+.tabla-b th
+  width: 300px
