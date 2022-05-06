@@ -104,10 +104,28 @@
     margin: 0
     top: 14rem
     left: 0
-    width: calc( 100% + 6rem)
+    width: 100%
     height: 50%
     background-color: #FFF6E6 
     background-repeat: no-repeat
+.bg_grad-04
+  position: relative
+  .row, 
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0
+    top: 3rem
+    left: 0
+    width: 100%
+    height: 63%
+    background-color: #FFF0E1
+    background-repeat: no-repeat
+.bg_grad-05
+  background-image: url("../assets/curso/tema2/fondo1.svg")
+  background-repeat: no-repeat
+  background-size: cover
 .bgr
   background-color: #FFB6B0
   border-radius: 10px
@@ -140,6 +158,8 @@
   &_10
     background-color: #FFEDCC
     border-radius: 10px
+  &_11
+    background-color: #FFF0E1 !important
 
 .color
   color: #FF6D60
@@ -151,7 +171,7 @@
   &:hover
     transform: scale(1.20);
 
-
+//posicion pantalla//
 .posit
   z-index: 1
   right: 35%
@@ -175,6 +195,26 @@
   &_5
     margin: 0 -3rem
     background-color: #FFC967
+  &_6
+    z-index: 1
+    right: 44%
+    width: 55% !important
+    @media screen and ( max-width: 420px  )
+      right: 6%
+      width: 88% !important
+  &_7
+    z-index: 0
+    left: 51% !important
+    @media screen and ( max-width: 420px )
+      left: 0 !important
+      top: -7px
+  &_8
+    top: 50px 
+  &_9
+    margin-top: 76px
+    @media screen and ( max-width: 420PX  )
+      margin-top: 0
+
       
 // TARJETA HOVER TEMA 1    
 .nav-holder2
