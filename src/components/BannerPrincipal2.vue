@@ -197,6 +197,13 @@ export default {
 
   100%
     transform: translateY(0px)
+@keyframes float2
+  0%
+    transform: translatex(20px)
+
+  100%
+    transform: translatex(0px)
+
 @keyframes scale
   0%
     transform: scale(1.1)

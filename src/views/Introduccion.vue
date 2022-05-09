@@ -9,9 +9,9 @@
           i.fas.fa-info
       h1 Introducción
     
-    p.mb-3.mb-md-5 Bienvenido al componente <b>“Gestión de requerimientos e Indicadores de gestión”</b>. Para comenzar este recorrido, se invita a explorar el recurso que se muestra a continuación:
+    p(data-aos="fade-up").mb-3.mb-md-5 Bienvenido al componente <b>“Gestión de requerimientos e Indicadores de gestión”</b>. Para comenzar este recorrido, se invita a explorar el recurso que se muestra a continuación:
     
-    .bg_grad-01
+    .bg_grad-01(data-aos="fade-down")
       .row.justify-center.pt-5.pb-5
         .col-12.col-md-10
           figure
