@@ -11,7 +11,7 @@
       .col-12.col-lg-10
         .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
           .bloque-texto-g__texto.p-4.posit
-            p.mb-0 Los indicadores de gestión o Key Performance Indicators (KPI por sus siglas en inglés), no es una tarea fácil como se podría pensar, debido al hecho de que hay tantas variaciones diferentes de la definición de un KPI disponibles en la literatura escrita sobre este tema. Generalmente encontramos un enfoque más concreto, más bien operativo, de los diferentes conceptos; los KPI deberían ser herramientas prácticas más que discursivas. A esto retomamos lo escrito por Kelvin, “lo que no se puede definir no se puede medir, lo que no se puede medir no se pueden mejorar, lo que no se puede mejorar se puede deteriorar” (Lord, 2008).
+            p.mb-0 Los indicadores de gestión o <em>Key Performance Indicators</em> (KPI por sus siglas en inglés), no es una tarea fácil como se podría pensar, debido al hecho de que hay tantas variaciones diferentes de la definición de un KPI disponibles en la literatura escrita sobre este tema. Generalmente encontramos un enfoque más concreto, más bien operativo, de los diferentes conceptos; los KPI deberían ser herramientas prácticas más que discursivas. A esto retomamos lo escrito por Kelvin, “lo que no se puede definir no se puede medir, lo que no se puede medir no se pueden mejorar, lo que no se puede mejorar se puede deteriorar” (Lord, 2008).
           .bloque-texto-g__img.posit_2(
             :style="{'background-image': `url(${require('@/assets/curso/tema3/t3-1.png')})`}")
     .bg_grad-06.mb-5
@@ -20,8 +20,8 @@
           figure
             img(src='@/assets/curso/tema3/t3-2.svg', alt='Texto que describa la imagen')
         .col-12.col-lg-6.posit_10(data-aos="fade-left")
-          h3 De acuerdo con lo anterior, un KPI:
-          p es una medida que evalúa cómo una empresa ejecuta su visión estratégica. Este término se refiere a cómo una estrategia interactiva, se integra en la estrategia de la empresa en su conjunto, por ello es importante que todos los implicados en ella estén de acuerdo en lo que representa la estrategia y cómo se interpretan. 
+          h3 De acuerdo con lo anterior, un KPI
+          p Es una medida que evalúa cómo una empresa ejecuta su visión estratégica. Este término se refiere a cómo una estrategia interactiva, se integra en la estrategia de la empresa en su conjunto, por ello es importante que todos los implicados en ella estén de acuerdo en lo que representa la estrategia y cómo se interpretan. 
 
     p Es necesario destacar el hecho de que hay un límite en la forma en que cada uno de los puntos de optimización puede mejorar. También se han visto los efectos de la anulación donde el aumento de la eficacia de una acción concreta parecía producirse solo a favor de otra acción.
     p.mb-5 Se puede reconocer los elementos de un indicador de gestión, de acuerdo con el siguiente esquema:
@@ -36,7 +36,7 @@
             figure.mt-4
               img.barras(src='@/assets/curso/tema3/t3-4.svg', alt='Texto que describa la imagen')
     
-    p.mb-5 En una organización también se debe contar con el mínimo número posible de indicadores que garanticen contar con información constante, real y precisa sobre aspectos tales como:
+    p.mb-5 En una organización también se debe contar con el <b>mínimo número posible de indicadores</b> que garanticen contar con información constante, real y precisa sobre aspectos tales como:
 
     .row
       .col-12.col-lg-3.mb-3(data-aos="fade-up")
@@ -210,7 +210,7 @@
               th Órdenes a tiempo
               td Órdenes entregadas a tiempo / Órdenes totales despachadas. 
             tr.bgr_3
-              th Órdenes en Cantidad
+              th Órdenes en cantidad
               td Unidades recibidas orden / Unidades entregadas orden.
             tr.bgr_4
               th Precisión facturación
@@ -224,6 +224,9 @@
             tr.bgr_3
               th Quejas de clientes
               td Órdenes con quejas / Órdenes totales generadas. 
+            tr.bgr_4
+              th Resolución de quejas de clientes
+              td Quejas con resolucion a tiempo / Quejas recibidas. 
     
     separador
 
@@ -429,23 +432,28 @@
           li.margin-b 
             .lista-ol--cuadro__vineta.color_2
               span 1
-            | <b>Nombre:</b> el nombre que se va a dar al indicador dependiendo la actividad a medir.
+            span <b>Nombre:</b> 
+              | el nombre que se va a dar al indicador dependiendo la actividad a medir.
           li.margin-b 
             .lista-ol--cuadro__vineta.color_2
               span 2
-            | <b>Objetivo del indicador:</b> con qué objetivo se plantea el indicador.
+            span <b>Objetivo del indicador:</b> 
+              | con qué objetivo se plantea el indicador.
           li.margin-b 
             .lista-ol--cuadro__vineta.color_2
               span 3
-            | <b>Forma de cálculo del indicador:</b> la fórmula para calcular los resultados del indicador.
+            span <b>Forma de cálculo del indicador:</b> 
+              | la fórmula para calcular los resultados del indicador.
           li.margin-b 
             .lista-ol--cuadro__vineta.color_2
               span 4
-            | <b>Periodicidad:</b> el periodo de tiempo que se toma para medir el indicador.
+            span <b>Periodicidad:</b> 
+              | el periodo de tiempo que se toma para medir el indicador.
           li.margin-b 
             .lista-ol--cuadro__vineta.color_2
               span 5
-            | <b>Responsable:</b> todo indicador debe tener un responsable.
+            span <b>Responsable:</b> 
+              | todo indicador debe tener un responsable.
           li.margin-b 
             .lista-ol--cuadro__vineta.color_2
               span 6
@@ -453,7 +461,8 @@
           li.margin-b 
             .lista-ol--cuadro__vineta.color_2
               span 7
-            | <b>Impacto:</b> se mide el resultado del mismo y el impacto que tiene sobre las áreas que se le aplican.
+            span <b>Impacto:</b> 
+              | se mide el resultado del mismo y el impacto que tiene sobre las áreas que se le aplican.
       .col-12.col-lg-5(data-aos="fade-left")
         figure
           img(src="@/assets/curso/tema3/t3-31.svg" alt="Adornos flotantes")

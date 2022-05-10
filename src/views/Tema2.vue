@@ -7,7 +7,7 @@
         span 2
       h1 Sistema de calidad
     
-    p.mb-5 La política de atención con enfoque pluralista y diferencial completo de los lineamientos orientaciones y requerimientos del sistema integrado de gestión de calidad para satisfacer expectativas de las poblaciones en un marco de mejora continua
+    p.mb-5 La política de atención con enfoque pluralista y diferencial completo de los lineamientos orientaciones y requerimientos del sistema integrado de gestión de calidad para satisfacer expectativas de las poblaciones en un marco de mejora continua.
 
     .row.justify-center.mb-5(data-aos="fade-up") 
       .col-12.col-lg-9
@@ -212,10 +212,10 @@
               td Capítulo 7 numeral 5: Control de la producción y la prestación del servicio, dice que se debe asegurar la implementación del seguimiento y la medición así como la implementación de actividades de entrega del producto. De igual manera, en el capítulo 8, numeral 1 se hace mención de la satisfacción del cliente y en el capítulo 8, numeral 5 de la mejora continua.
             tr.bgr_4
               th ITIL <em>Information Technology Infrastructure Library</em> ITIL V3. 2011.
-              td Considera dentro del módulo de Diseño del servicio los ANS como pilares del marco de trabajo, donde se encuentra la biblioteca de buenas prácticas de manejo de las tecnologías de la información
+              td Considera dentro del módulo de diseño del servicio los ANS como pilares del marco de trabajo, donde se encuentra la biblioteca de buenas prácticas de manejo de las tecnologías de la información.
             tr.bgr_3
               th Superintendencia Financiera de Colombia.
-              td Circular externa 042 de 2012 - requerimientos mínimos de seguridad y calidad para la realización de operaciones: Para procesos de tercerización outsourcing.
+              td Circular externa 042 de 2012 - requerimientos mínimos de seguridad y calidad para la realización de operaciones: Para procesos de tercerización <em>outsourcing</em>.
 
     p.mb-5 A continuación, se invita a observar un video sobre los aspectos más relevantes de los ANS.
 

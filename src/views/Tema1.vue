@@ -32,11 +32,11 @@
         .col-12.col-md-10
           figure
             .video
-              iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+              iframe(width="560" height="315" src="https://www.youtube.com/embed/U8OGCJaKORY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     h3(data-aos="fade-right").mb-5 Pero… ¿Qué son los datos personales?
 
-    p.mb-5 Los datos personales son información de un individuo, la cual se utiliza para identificarlo. Estos datos pueden estar almacenados en bases de datos, ya sean físicas o digitales. Dentro de los datos personales se maneja información como:
+    p.mb-5 Los datos personales son información de un individuo, la cual se utiliza para identificarlo. Estos datos pueden estar almacenados en <b><em>bases de datos</em></b>, ya sean físicas o digitales. Dentro de los datos personales se maneja información como:
 
     .row
       .col-12.col-lg-3.mb-3(data-aos="fade-up")
@@ -149,7 +149,7 @@
           .col-md-5.align-items-center
             div 
               h4 Datos sensibles
-              p Son aquellos que pueden llegar a afectar la intimidad del titular.
+              p Son aquellos que pueden llegar a afectar la <u>intimidad</u> del titular.
               p El uso indebido de la información puede generar riesgos, incluso discriminación. La revelación de datos del titular como pertenencia a organizaciones, sindicatos, agremiaciones, orientación política, datos relativos a la salud y datos biométricos son datos de alta sensibilidad y se debe garantizar la protección de estos en pro de la garantía del bienestar de su propietario.
           .col-md-7.mb-4.mb-md-0
             figure
@@ -227,7 +227,7 @@
               img(src='@/assets/curso/tema1/t1-23.png', alt='Texto que describa la imagen')
           .col-md-7.mb-4.mb-md-0
             h4 Derechos
-            p Todo titular de la información tiene derechos y condiciones de legalidad para el tratamiento de los datos, el habeas data. Este derecho consagrado en el artículo 15 de la Constitución Política de Colombia de 1991, se refiere al derecho a la intimidad familiar, personal y al buen nombre, y designa al Estado como el ente garantista de que el artículo se cumpla.
+            p Todo titular de la información tiene derechos y condiciones de legalidad para el tratamiento de los datos, el <em>habeas data</em>. Este derecho consagrado en el artículo 15 de la Constitución Política de Colombia de 1991, se refiere al derecho a la intimidad familiar, personal y al buen nombre, y designa al Estado como el ente garantista de que el artículo se cumpla.
       .py-3.py-md-4(titulo="Condiciones")
         .row.ps-0.ps-lg-4
           .col-md-5.mb-3
@@ -252,13 +252,13 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              p.m-0.text-small Para una ampliación más extensa, en los anexos de este componente formativo hay un video llamado: <em>Legislación en protección de datos personales en Colombia</em>, donde se discute sobre esta legislación.  
+              p.m-0.text-small Apreciado aprendiz, para ampliar la información sobre este tema, en el material complementario encontrará el video, <em>"Legislación en protección de datos personales en Colombia"</em> o bien puede visualizarlo dando clic en el botón.   
             .col-sm-auto.p-lg-4
-              a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/embed/2L91WMqw96A" target="_blank")
+              a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/embed/bvAH9ppBbbE" target="_blank")
                 span ver video
                 i.fas.fa-file-download
     
-    p.mb-5 Ahora, se relacionan otras normas que están relacionadas con <em><b>Atención al cliente</b></em>, donde los ciudadanos pueden basarse para someter PQR (Peticiones, Quejas y Reclamos) son las que aparecen a continuación:
+    p.mb-5 Ahora, se relacionan otras normas que están relacionadas con <em><b>Atención al cliente</b></em>, donde los ciudadanos pueden basarse para someter PQR (peticiones, quejas y reclamos) son las que aparecen a continuación:
 
     .row.justify-center(data-aos="zoom-out")
       .col-12.col-lg-8
@@ -273,7 +273,7 @@
               td Por medio de la cual se regula el derecho fundamental de petición.
             tr.bgr_3
               th Ley 1437 2011
-              td Código de Procedimiento Administrativo y de lo Contencioso .Administrativo
+              td Código de Procedimiento Administrativo y de lo Contencioso Administrativo
             tr.bgr_4
               th Ley 1474 de 2011
               td Actos de corrupción.
@@ -301,7 +301,7 @@
           ul.lista-ul
             li 
               i.fas.fa-check.color
-              | Cuando los datos respondan al interés superior de los niños, niñas y adolescentes, en un ámbito de respeto (entiéndase interés superior como: la obligatoriedad de todas las personas a garantizar la integralidad y los derechos humanos universales, interdependientes y prevalentes de los niños, niñas y adolescentes).
+              | Mecanismo para cumplir con las políticas y normativas locales e internacionales.
             li 
               i.fas.fa-check.color
               | Reducción del riesgo de que entren materiales ilegales o no conformes en las cadenas de suministro.
@@ -374,14 +374,14 @@
         .col-12.col-md-10
           figure
             .video
-              iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+              iframe(width="560" height="315" src="https://www.youtube.com/embed/PSiBtkl75Hc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     .row.mb-5
       .col-12.col-lg-4(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema1/t1-30.png', alt='Texto que describa la imagen')
       .col-12.col-lg-8.mt-4(data-aos="fade-left")
-        p <b>Peticiones, Quejas, Reclamos, Sugerencias, Felicitaciones (PQRF)</b>: estos componentes constituyen la mayor composición dentro de los requerimientos de los usuarios, ya que la mayoría de sus solicitudes hacia la empresa están enfocadas en ellas. A nivel general, las PQR hacen alusión a inconformidades o dificultades con la empresa, su personal o los productos adquiridos, mientras que las felicitaciones aluden a un reconocimiento de cliente hacia la empresa y las sugerencias una visión de mejora desde una perspectiva propositiva.
+        p <b>Peticiones, quejas, reclamos, sugerencias, felicitaciones (PQRF)</b>: estos componentes constituyen la mayor composición dentro de los requerimientos de los usuarios, ya que la mayoría de sus solicitudes hacia la empresa están enfocadas en ellas. A nivel general, las PQR hacen alusión a inconformidades o dificultades con la empresa, su personal o los productos adquiridos, mientras que las felicitaciones aluden a un reconocimiento de cliente hacia la empresa y las sugerencias una visión de mejora desde una perspectiva propositiva.
         p Para la atención de las solicitudes y/o comunicados de peticiones, quejas y reclamos (PQR) se usa un mismo canal administrativo, pero tiene un tratamiento y un seguimiento particular; por esta razón, el primer paso del proceso de PQR es el formato de recepción que debe, de manera clara y definida, determinar en cuál de las tres tipologías se clasifica la inquietud del cliente respecto del servicio prestado.
 
     .bgr_6.mb-5
@@ -414,8 +414,8 @@
           h4.text-center Canales 
           p.text-center Los canales para la presentación de una <b>PQR</b> más usados son: 
           p.m-0.text-center Oficinas de servicio al cliente.
-          p.m-0.text-center Call Center.
-          p.m-0.text-center Página web.
+          p.m-0.text-center Call center.
+          p.m-0.text-center Página <em>web</em>.
       .col-12.col-lg-4(data-aos="fade-left")
         .bgr_10.p-4.h-100
           figure.justify-center.mb-3
@@ -432,7 +432,7 @@
             .col.mb-3.mb-sm-0
               p.m-0.text-small En los anexos de este componente, se podrá encontrar material en video que amplía y ejemplifica la recepción de una reclamación y documenta la trazabilidad del requerimiento de acuerdo con la normativa y procedimientos técnicos. 
             .col-sm-auto.p-lg-4
-              a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/embed/2L91WMqw96A" target="_blank")
+              a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/embed/n4GaN2DuI9Q" target="_blank")
                 span ver video
                 i.fas.fa-file-download
     
