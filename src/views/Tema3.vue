@@ -367,16 +367,40 @@
     p Los indicadores de servicio al cliente son considerados muy sensibles y se deben administrar en todas las organizaciones, porque son los resultados directos de la labor relacionada con su principal objetivo: el cliente, y se evalúan de acuerdo con la política establecida para la variable y con la frecuencia indicada para determinar resultados en tiempos de intervalos más cortos, se puede decir que es a diario y permanente.
     p.mb-5 A continuación, se presentan los KPI más efectivos para medir el servicio al cliente.
 
-    div.justify-center
-      h4 ¿CUÁLES SON LOS 
-        span.color KPI 
-        | DE SERVICIO AL CLIENTE 
-        span.color MÁS EFECTIVOS?
-    
-    .row.justify-content-center.mb-5
-      .col-12.col-lg-10
-        figure
-          img(src="@/assets/curso/tema3/t3-30.svg" alt="Adornos flotantes")
+    .bg_grad-10
+      .row.mb-5.justify-center
+        .col-12.col-lg-6
+          div.bgr_17.p-3.mb-3
+            h4.m-0 ¿CUÁLES SON LOS 
+              span.color_3 KPI 
+              | DE SERVICIO AL CLIENTE 
+              span.color_3 MÁS EFECTIVOS
+              | ?
+          PasosA.color-acento-contenido.mb-5.justify-left(tipo="n")
+            div(data-aos="fade-left")
+              h3 Satisfacción general
+              p Ayudará a comprender la satisfacción  de los clientes en todos los aspectos  de la compañía.
+            div(data-aos="fade-right")
+              h3 Número de quejas recibidas
+              p Permite comprender las áreas de  negocio que son un problema y  cómo resolverlo. 
+            div(data-aos="fade-left")
+              h3 Tasa de quejas no resueltas
+              p Ayuda a optimizar los recursos y  ofrecer un horario flexible para la  atención al cliente.
+            div(data-aos="fade-right")
+              h3 Tiempo para solucionar quejas
+              p Permite mejorar los tiempos de  atención al cliente y aumenta la  posibilidad de mantenerlos fieles a  la empresa.
+            div(data-aos="fade-left")
+              h3 Tasa de conversión
+              p Ayuda a descubrir la probabilidad  de que un cliente compre de  nuevo, renueve el contrato, llene  un formulario, etc.
+            div(data-aos="fade-right")
+              h3 Indicador <em>Net Promoter Score</em>
+              p Ofrece la posibilidad de conocer si el  cliente está satisfecho con tu servicio  y recomendará la empresa con  alguien más.
+            div(data-aos="fade-left")
+              h3 Tasa de retención de clientes
+              p Ayuda a conocer si los clientes  se encuentran contentos con un servicio y si se mantendrán fieles  a la marca.
+            div(data-aos="fade-right")
+              h3 Tasa de desempeño de  los empleados
+              p Permite medir la productividad de los  empleados en cuanto a la solución de  problemas y servicio al cliente.
     
     p.mb-5 Estas son algunas áreas relacionadas en la siguiente tabla y que están comprometidas directamente con el servicio al cliente y que deben ser medidas y evaluadas de manera periódica, especialmente todo lo relacionado con la logística de servicio al cliente.
 

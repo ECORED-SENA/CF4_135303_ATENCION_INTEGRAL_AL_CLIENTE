@@ -273,7 +273,7 @@
               td Por medio de la cual se regula el derecho fundamental de petición.
             tr.bgr_3
               th Ley 1437 2011
-              td Código de Procedimiento Administrativo y de lo Contencioso Administrativo
+              td Código de Procedimiento Administrativo y de lo Contencioso Administrativo.
             tr.bgr_4
               th Ley 1474 de 2011
               td Actos de corrupción.
@@ -414,7 +414,7 @@
           h4.text-center Canales 
           p.text-center Los canales para la presentación de una <b>PQR</b> más usados son: 
           p.m-0.text-center Oficinas de servicio al cliente.
-          p.m-0.text-center Call center.
+          p.m-0.text-center <em>Call center</em>.
           p.m-0.text-center Página <em>web</em>.
       .col-12.col-lg-4(data-aos="fade-left")
         .bgr_10.p-4.h-100

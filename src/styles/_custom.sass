@@ -64,6 +64,9 @@
   align-items: center;
   justify-content: center;
   flex-direction: row;
+.justify-left
+  .text-end 
+    text-align: left !important
 
 //FONDO BANNER INTERNO TEMAS//
 .banner-interno__fondo
@@ -217,6 +220,25 @@
   &::before
     content: ''
     position: absolute
+    margin: 0 -3rem
+    top: 0
+    left: 0
+    width: calc(100% + 6rem)
+    height: 100%
+    background-image: url("../assets/curso/tema3/fondo3.svg")
+    background-repeat: no-repeat
+    @media screen and ( max-width: 420px  )
+      height: 84%
+      width: 100%
+      left: 0
+      top: 73px
+.bg_grad-11
+  position: relative
+  .row, 
+    position: relative
+  &::before
+    content: ''
+    position: absolute
     margin: 0
     top: 44px
     left: 0
@@ -286,6 +308,8 @@
     background-color: #D9D9E9
     &::before
       background-color: #373660
+  &_17
+    background-color: #FF6D60
 
 .color
   color: #FF6D60
@@ -293,6 +317,8 @@
     color: #FFA648
   &_2
     color: black
+  &_3
+    color: white
     
 
 .tranform_1
@@ -446,14 +472,7 @@
 //ANIMACIONES//
 
 .barras
-  animation: float2 3.5s ease-in-out infinite alternatee
-
-@keyframes float2
-  0%
-    transform: translatex(20px)
-
-  100%
-    transform: translatex(0px)
+  animation: float2 3.5s ease-in-out infinite alternate
         
       
 // TARJETA HOVER TEMA 1    
