@@ -241,7 +241,7 @@
         p Interpretar un indicador de gestión es indicar lo que está ocurriendo en un proceso específico o actividad, para ello se procede a la toma de decisiones que son, generalmente, opciones de mejora para corregir cuando su resultado se desvía de lo esperado y mejorar los resultados en el menor tiempo posible.
         p En la cultura de la medición del desempeño de las organizaciones y cuando se interpretan o se leen los indicadores de gestión, es muy importante realizar el ejercicio planteado en la gráfica, que son los niveles de tolerancia de los indicadores y que nos envían señales de alerta.
 
-    .bg_grad-08
+    .bg_grad-08.mb-5
       .row
         .col-12.col-lg-5.p-5
           h4 Los rangos de tolerancia
@@ -571,12 +571,12 @@
             img.img120.tranform_1(src='@/assets/curso/tema3/t3-33.svg', alt='Texto que describa la imagen')
           h4.text-center Informe estratégico
           p.m-0.text-center Refleja la salud de la organización y su progreso para que las partes interesadas puedan determinar si la empresa está cumpliendo los objetivos.
-    .bg_grad-10
+    .bg_grad-11.mb-5
       .row.justify-content-center
         .col-12.col-lg-3
           figure
               img(src='@/assets/curso/tema3/t3-34.svg', alt='Texto que describa la imagen')
-        .col-12.col-lg-6.mt-lg-5.p-5.p-lg-0
+        .col-12.col-lg-6.p-5.p-lg-0.margin-t
           h3 ¿Qué incluir en un 
             span.color informe de KPI?
           p Aunque el informe debe redactarse para responder a las necesidades de atención al cliente de forma que refleje adecuadamente sus objetivos o proyectos, hay algunos datos clave que puede ser útil incluir.
