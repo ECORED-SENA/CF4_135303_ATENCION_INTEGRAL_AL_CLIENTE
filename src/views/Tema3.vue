@@ -266,7 +266,15 @@
                 img.posit_20(src="@/assets/curso/tema3/t3-26.svg")
                 .indicador--hover(v-if="mostrarIndicador" style=" top: 19% ")
     
-    h3 Interpretación de indicadores de gestión (KPI)
+    h3.mb-5 Interpretación de indicadores de gestión (KPI)
+
+    .bg_grad-01(data-aos="fade-down")
+      .row.justify-center.pt-5.pb-5
+        .col-12.col-md-10
+          figure
+            .video
+              iframe(width="560" height="315" src="https://www.youtube.com/embed/nCUYv5oPwJY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+
     p Los  KPI permiten revisar los resultados y la trazabilidad de las variables escogidas para el indicador, además de entender el nivel del objetivo propuesto desde el punto de vista de las políticas establecidas por la compañía. En ellos se reflejan las fortalezas, debilidades oportunidades y las amenazas por lo tanto es importante clarificar y precisar las condiciones necesarias para construir aquellos realmente útiles para medir el desempeño de las organizaciones en sus diferentes áreas.
     p.mb-5 Una regla ampliamente usada en la interpretación de los KPI es que el objetivo debe ser SMART; las cinco letras significan:
 
