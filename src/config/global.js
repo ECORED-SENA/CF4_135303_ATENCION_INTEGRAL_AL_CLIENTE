@@ -226,13 +226,13 @@ export default {
       },
       {
         nombre: 'Alex García',
-        cargo: 'Diseñador Instruccional',
+        cargo: 'Diseñador instruccional',
         centro:
           'Centro de la Industria, la Empresa y Los Servicios - CIES Regional - Norte de Santander',
       },
       {
         nombre: 'Carolina Coca Salazar',
-        cargo: 'Asesora Metodológica',
+        cargo: 'Asesora metodológica',
         centro: 'Centro de Diseño y Metrología Regional - Distrito Capital',
       },
       {

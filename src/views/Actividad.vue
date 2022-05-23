@@ -10,8 +10,8 @@
             img(src="@/assets/template/arrastrar.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2  Contextualización temática. 
-        p.mb-4 De las palabras relacionadas, marque con una X las que identifique hacen parte de los requerimientos de atención al cliente 
+          h2  Identificación requerimientos atención al cliente 
+        p.mb-4 Contextualización temática.
         .tarjeta.bgr_18.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
