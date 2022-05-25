@@ -449,6 +449,8 @@
     @media screen and ( max-width: 420px  )
       top: 142px
       left: 19px
+  &_21
+    column-span: 3
 
 .margin-b
   margin-bottom: 30px !important
@@ -463,6 +465,10 @@
     @media screen and ( max-width: 420px  )
       height: 332px
 
+.bord
+  border-right: 1px solid #e8e8e8 !important
+  &_1
+    border-right: none
 .infografia-autores
   position: relative
   &__img
@@ -578,3 +584,11 @@
   background-image: url("../assets/curso/tema3/fondo2.svg") !important
   background-repeat: no-repeat
   background-size: cover
+.manito
+  &::after
+    top: 55px
+    left: -277px
+  @media screen and ( max-width: 420px )
+    &::after
+      top: 55px
+      left: -149px

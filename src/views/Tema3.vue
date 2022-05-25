@@ -226,7 +226,7 @@
               td Órdenes con quejas / Órdenes totales generadas. 
             tr.bgr_4
               th Resolución de quejas de clientes
-              td Quejas con resolucion a tiempo / Quejas recibidas. 
+              td Quejas con resolución a tiempo / Quejas recibidas. 
     
     separador
 
@@ -260,12 +260,12 @@
           .infografia-autores(data-aos="fade-right")
             figure
               img.posit_17(src="@/assets/curso/tema3/t3-23.svg" alt="Adornos flotantes")
-              .infografia-autores__img(@mouseover="mostrarIndicador = false")
+              .infografia-autores__img
                 img.posit_18(src="@/assets/curso/tema3/t3-24.svg")
                 img.posit_19(src="@/assets/curso/tema3/t3-25.svg")
                 img.posit_20(src="@/assets/curso/tema3/t3-26.svg")
-                .indicador--hover(v-if="mostrarIndicador" style=" top: 19% ")
-    
+                .indicador--hover.manito(v-if="mostrarIndicador")
+              
     h3.mb-5 Interpretación de indicadores de gestión (KPI)
 
     .bg_grad-01(data-aos="fade-down")
@@ -519,42 +519,44 @@
         h5 Informes perspectiva de los clientes
       table
         caption Nota. Tomada de Revista Española de Financiación y Contabilidad (2005)
-        tr.bgr_3
+        tr
           th Informe 
           th Plazo
           th Destinatario
-          td <strong>Característica</strong>
-        tr.bgr_4.text-bold.text-center Informes sobre oportunidad de atención
-        tr.bgr_3
-          td Propuestas solicitadas por clientes.
-          td Semanal.
-          td Producción, ventas y dirección.
+          th.bord_1 Característica
+        tr
+          td(colspan="4").text-center.text-bold Informes sobre oportunidad de atención
+        tr
+          td.bord Propuestas solicitadas por clientes.
+          td.bord Semanal.
+          td.bord Producción, ventas y dirección.
           td De la semana y acumulado.
-        tr.bgr_4
-          td Propuestas adjudicadas.
-          td Semanal.
-          td Producción, ventas y dirección.
+        tr
+          td.bord Propuestas adjudicadas.
+          td.bord Semanal.
+          td.bord Producción, ventas y dirección.
           td De la semana y acumulado.
-        tr.bgr_3
-          td Plazo despacho propuestas adjudicadas.
-          td Semanal.
-          td Producción, ventas y dirección.
+        tr
+          td.bord Plazo despacho propuestas adjudicadas.
+          td.bord Semanal.
+          td.bord Producción, ventas y dirección.
           td De la semana y acumulado.
-        tr.bgr_4
-          td Propuestas, pérdidas y causas.
-          td Semanal.
-          td Producción, ventas y dirección.
+        tr
+          td.bord Propuestas, pérdidas y causas.
+          td.bord Semanal.
+          td.bord Producción, ventas y dirección.
           td De la semana y acumulado. 
-        tr.bgr_3
-          td Precios de ventas por clientes.
-          td Mensual. 
-          td Producción, ventas y dirección.
+        tr
+          td.bord Precios de ventas por clientes.
+          td.bord Mensual. 
+          td.bord Producción, ventas y dirección.
           td Comparativo mensual y anual.
-        tr.bgr_4.text-bold Informes sobre colaboración con cliente
-        tr.bgr_3
-          td Nivel de conectividad e información compartida.
-          td Mensual. 
-          td Producción, ventas, contabilidad y dirección.
+        tr
+          td(colspan="4").text-center.text-bold Informes sobre colaboración con cliente
+        tr
+          td.bord Nivel de conectividad e información compartida.
+          td.bord Mensual. 
+          td.bord Producción, ventas, contabilidad y dirección.
           td Por cliente.
     
     P Una vez que se haya medido un indicador clave de rendimiento, es posible presentar su progreso en un informe de KPI. Esto suele ser útil para que los jefes de proyecto, jefes de equipo, gerentes y supervisores lo comuniquen a la dirección de la empresa, a los jefes de departamento o a otras partes interesadas.
@@ -658,7 +660,7 @@
 export default {
   name: 'Tema3',
   data: () => ({
-    // variables de vue
+    mostrarIndicador: true,
   }),
   mounted() {
     this.$nextTick(() => {

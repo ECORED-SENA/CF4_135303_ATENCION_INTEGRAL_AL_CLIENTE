@@ -381,7 +381,7 @@
         figure
           img(src='@/assets/curso/tema1/t1-30.png', alt='Texto que describa la imagen')
       .col-12.col-lg-8.mt-4(data-aos="fade-left")
-        p <b>Peticiones, quejas, reclamos, sugerencias, felicitaciones (PQRF)</b>: estos componentes constituyen la mayor composición dentro de los requerimientos de los usuarios, ya que la mayoría de sus solicitudes hacia la empresa están enfocadas en ellas. A nivel general, las PQR hacen alusión a inconformidades o dificultades con la empresa, su personal o los productos adquiridos, mientras que las felicitaciones aluden a un reconocimiento de cliente hacia la empresa y las sugerencias una visión de mejora desde una perspectiva propositiva.
+        p <b>Peticiones, quejas, reclamos, sugerencias, felicitaciones (PQRSF)</b>: estos componentes constituyen la mayor composición dentro de los requerimientos de los usuarios, ya que la mayoría de sus solicitudes hacia la empresa están enfocadas en ellas. A nivel general, las PQR hacen alusión a inconformidades o dificultades con la empresa, su personal o los productos adquiridos, mientras que las felicitaciones aluden a un reconocimiento de cliente hacia la empresa y las sugerencias una visión de mejora desde una perspectiva propositiva.
         p Para la atención de las solicitudes y/o comunicados de peticiones, quejas y reclamos (PQR) se usa un mismo canal administrativo, pero tiene un tratamiento y un seguimiento particular; por esta razón, el primer paso del proceso de PQR es el formato de recepción que debe, de manera clara y definida, determinar en cuál de las tres tipologías se clasifica la inquietud del cliente respecto del servicio prestado.
 
     .bgr_6.mb-5

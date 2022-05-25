@@ -10,8 +10,8 @@
             img(src="@/assets/template/arrastrar.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2  Identificación requerimientos atención al cliente 
-        p.mb-4 Contextualización temática.
+          h2  Identificación requerimientos para la atención al cliente 
+        p.mb-4 Contextualizar los conceptos desarrollados en el componente para identificar correctamente los requerimientos de atención al cliente a travéz de la identificación correcta de elementos de una lista.
         .tarjeta.bgr_18.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0

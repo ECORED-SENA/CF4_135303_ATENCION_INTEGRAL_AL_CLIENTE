@@ -141,11 +141,11 @@ export default {
     },
     {
       referencia:
-        'Normas-iso.com. (s. f.). ISO. Normas ISO 9001: Sistemas de gestión de la calidad',
+        'Normas-iso.com. (s. f.). ISO. Normas ISO 9001: Sistemas de gestión de la calidad.',
       link: 'https://www.normas-iso.com/iso-9001/',
     },
     {
-      referencia: 'RAE. (2020). Definición de expectativa',
+      referencia: 'RAE. (2020). Definición de expectativa.',
       link: 'https://dle.rae.es/expectativa?m=form',
     },
     {
@@ -157,8 +157,8 @@ export default {
       link: 'https://dle.rae.es/pol%C3%ADtico',
     },
     {
-      referencia: 'Revista Zona Logística. (2017). La logística del servicio',
-      link: 'https://zonalogistica.com/ ',
+      referencia: 'Revista Zona Logística. (2017). La logística del servicio.',
+      link: 'https://zonalogistica.com/la-logistica-del-servicio/',
     },
   ],
   glosario: [
